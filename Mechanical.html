@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>lathe machine</title>
+
+  <link rel="stylesheet" href="public/index.css">
+
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+
+<body>
+  <div id="heading">
+    <h1>lathe machine</h1>
+    <div class="border"></div>
+    <p id="red">A lathe machine is a versatile tool used for shaping materials like metal, wood, or plastic. It operates by
+      rotating the workpiece against a cutting tool, which can be adjusted for various angles and depths. The
+      primary functions include turning, drilling, and threading, making it crucial in manufacturing and
+      woodworking. Lathe machines come in different types, such as engine lathes, turret lathes, and CNC lathes,
+      each offering specific features for precision and automation. Essential for producing cylindrical parts,
+      they are fundamental in both industrial and hobbyist settings, enabling detailed and accurate craftsmanship.</p>
+    
+  </div>
+  
+  <div id="progress-container">
+    <div id="progress">Engaging Hyperdrive...</div>
+  </div>
+  
+  
+  <script type="module" src="./main.js"></script>
+  
+</body>
+
+</html>

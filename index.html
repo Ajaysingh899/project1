@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Smart Education</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Department</a></li>
+                <li><a href="todaysconquest.html">Todays conquest</a></li>
+                <li><a href="communitysection.html">Community Section</a></li>
+                <li><a href="contestrankings.html">Contest Rankings</a></li>
+                <li><a href="references.html"> Text References</a></li>
+                <li><a href="language.html">Language</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+    </header>
+    
+    
+    
+`                                                   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up Form</title>
+    <link rel="stylesheet" href="styles10.css">
+</head>
+
+
+    <main>
+    <div class="container">
+        <div class="form-container">
+            <!-- Login Form -->
+            <div class="form" id="loginForm">
+                <h2>Login</h2>
+                <form>
+                    <label for="loginEmail">Email:</label>
+                    <input type="email" id="loginEmail" name="loginEmail" required>
+                    
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                    
+                    <button type="submit">Login</button>
+                    <p>Don't have an account? <a href="#" onclick="toggleForms()">Sign up</a></p>
+                </form>
+            </div>
+            
+            <!-- Sign Up Form -->
+            <div class="form" id="signUpForm">
+                <h2>Sign Up</h2>
+                <form>
+                    <label for="signupName">Name:</label>
+                    <input type="text" id="signupName" name="signupName" required>
+                    
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" name="signupEmail" required>
+                    
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" name="signupPassword" required>
+                    
+                    <button type="submit">Sign Up</button>
+                    <p>Already have an account? <a href="#" onclick="toggleForms()">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleForms() {
+            var loginForm = document.getElementById('loginForm');
+            var signUpForm = document.getElementById('signUpForm');
+            if (loginForm.style.display === 'none') {
+                loginForm.style.display = 'block';
+                signUpForm.style.display = 'none';
+            } else {
+                loginForm.style.display = 'none';
+                signUpForm.style.display = 'block';
+            }
+        }
+
+        // Initialize the view to show the login form initially
+        document.getElementById('signUpForm').style.display = 'none';
+    </script>
+</main>
+</html>
+
+
+      
+
+</html>
+
+  
+</head>
+
+    
+   
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+ 
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

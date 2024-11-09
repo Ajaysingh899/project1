@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	  
+</head>
+<body>
+
+<header><nav>
+    <div class="logo">Smart Education</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="todaysconquest.html">todays conquest</a></li>
+        <li><a href="communitysection.html">Community Section</a></li>
+        <li><a href="contestrankings.html">contest rankings</a></li>
+        <li><a href="references.html">References</a></li>
+        <li><a href="language.html">Language</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
+</header>
+    
+<body>
+    
+
+        <script>
+            // JavaScript function to navigate to the selected URL
+            function navigateToPage() {
+                // Get the select element
+                var select = document.getElementById("pageSelector");
+                // Get the selected option value (URL)
+                var url = select.value;
+                // Navigate to the selected URL
+                if (url) {
+                    window.location.href = url;
+                }
+            }
+        </script>
+
+
+        
+        
+
+    </main>
+    <main>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Option Bar Example</title>
+            <link rel="stylesheet" href="styles1.css">
+            <!--<select id="course" name="course">!-->
+                <select id="pageSelector" onchange="navigateToPage()">
+                <option value="" disabled selected >Select course</option>
+                
+                
+                <!--<option value="<li></option>!-->
+              
+                <option value="Mechanical.html">Mechanical</option>
+                <option value="Electrical.html">Electrical</option>
+                <option value="Mining.html">Mining</option>
+                <option value="Electronicsandcommunication.html">Electronics and communication</option>
+                <option value="Agriculture.html">Agriculture</option>
+                <option value="engineering.html">Engineering</option>
+                <option value="Civil.html">Civil</option>
+               
+
+            </select>
+    
+</body>
+
+</html>
